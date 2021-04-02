@@ -4,6 +4,8 @@ import AllmannyttanLogo from "../assets/images/resources/sveriges-allmannytta.jp
 import NikolaiLogo from "../assets/images/resources/nikolai.png";
 import IteamLogo from "../assets/images/resources/iteam.png";
 import ProxifyLogo from "../assets/images/resources/proxify.png";
+import VixinityLogo from "../assets/images/resources/vixinity.png";
+
 const Footer = () => {
   return (
     <div>
@@ -30,7 +32,9 @@ const Footer = () => {
                   <a href="https://proxify.io/">
                     <img src={ProxifyLogo} width="180" alt="" />
                   </a>
-    
+                  <a href="https://vixinity.com">
+                    <img src={VixinityLogo} width="180" alt="" />
+                  </a>
                   {
                   // add your logo here: 
                   }
